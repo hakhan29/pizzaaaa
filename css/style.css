@@ -1,0 +1,72 @@
+	@font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+		html{scroll-behavior: smooth;}
+		body,p,h1,h2,h3,p,ul{margin: 0; padding: 0}
+		body{background: black; color: white;}
+		h1{font-family: 'WAGURITTF'; font-size: 210px; font-weight: 100}
+		.wrap{width: 1000px; margin: auto;}
+		.sticky{position: sticky; top: 0px; z-index: 1}
+		.center-spacing{text-align: center;}
+		.title{padding-top: 300px; padding-bottom: 320px;}
+		.title h1{padding:10px 0px;background: rgba(0, 0, 0, 1.0);}
+		.introcircle {position: absolute; top: 10px; z-index: -1}
+		.introcircle img{width: 80%; animation: rotate 10s linear infinite;}
+		@keyframes rotate{
+        from{transform: rotateZ(0deg);}
+        to{transform: rotateZ(360deg);}
+}
+
+		.englogo1{font-family: Jomhuria; font-weight: 100; font-size: 100px; 
+				padding-left: 20px}
+		.topbg{background: orange; background-size: cover;}
+		.top{color: black; font-family: Jomhuria; font-weight: 100; font-size: 55px; padding-top: 10px}
+		.navibg{background: linear-gradient(0deg, rgba(0,0,0,0.4) , rgba(0,0,0,0.8) 90%); background-size: cover}
+		.navi{display: flex; width:100%; background: none;padding: 0}
+		.navi li{width: 25%; list-style-type: none;}
+		.navi li a{text-align: center; padding: 12px 0px; display: block; text-decoration: none; color: white; font-family: Noto Sans KR; font-size: 15px}
+		.navi li a:hover{color: orange;}
+		.sticky1{position: sticky; top: 0px; z-index: 1}
+		.sticky2{position: sticky; top: 65px; z-index: 1}
+		.introbg{background: url(../img/angryman.gif); background-size: cover}
+		.intro1{text-align: center; padding-top: 500px; 
+			font-family: Noto Sans KR; font-size: 35px; line-height: 80px;}
+		.intro2 h2{text-align: center; font-family: Noto Sans KR; font-style: bold; font-size: 50px; padding-top: 100px; padding-bottom: 50px; color: orange;}
+		.intro2 p{text-align: center; font-family: Noto Sans KR; font-size: 23px; padding-bottom: 200px}
+		
+		.main1bbg{background: rgba(26, 26, 26, 1.0);}
+		.main1bg{ background: url(../img/main1.png); background-repeat: no-repeat; background-position: 700px}
+		.main1{padding-right: 500px; padding-bottom: 150px}
+		.main1 h2{text-align: left; font-family: Noto Sans KR; font-size: 50px;
+				padding-top: 200px; padding-bottom: 50px}
+		.main1 p{text-align: left; font-family: Noto Sans KR; font-size: 25px; 
+				padding-top: 30px}
+		.gray{background: linear-gradient(90deg, rgba(26,26,26,1) 55%, rgba(26,26,26,0))}
+		.main2bg{background: url(../img/main2.png); background-size: cover; 
+			background-attachment: fixed;}
+		.main2{padding-left: 600px; padding-bottom: 150px}
+		.main2 h2{text-align: left; font-family: Noto Sans KR; font-size: 50px;
+				padding-top: 200px; padding-bottom: 50px}
+		.main2 p{text-align: left; font-family: Noto Sans KR; font-size: 25px; 
+				padding-top: 30px}
+		.englogo2{font-family: Jomhuria; font-weight: 100; font-size: 60px;}
+		.movetext{font-size: 60px; font-family: Jomhuria; font-weight: 100; position: relative; background: orange;
+		 width: 100%; max-width: 100%; padding-bottom: 60px; padding-top: 10px; overflow-x: hidden; overflow-y: hidden;}
+		.movetext .track{position: absolute; white-space: nowrap;will-change: transform;animation: marquee 30s linear infinite;}
+		@keyframes marquee{
+			from{transform: translateX(0);}
+			to{transform: translateX(-50%);}}
+		.menuti h2{font-family: Noto Sans KR; font-size: 50px; text-align: center;
+			padding-top: 150px; padding-bottom: 80px}
+		.menu {display: flex; width:100%; background: none;padding: 0; justify-content: center; space-evenly: 30px; padding-bottom: 100px}
+		.menuitem {width: 30%; text-align:center; }
+		.menuitem h3{font-family: Noto Sans KR; font-size: 25px; padding-bottom: 8px;}
+		.menuitem p{font-family: Noto Sans KR; font-size: 18px}
+		.menuitem a{text-decoration: none; color: white;}
+		.menuitem img{width: 90%}
+		.menuitem:hover {transition: all 1s; transform: scale(1.5); background: rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 50px black}
+		.footer{font-family: Noto Sans KR; font-size: 15px ;color: darkgray; padding-top: 100px; padding-bottom: 50px}
